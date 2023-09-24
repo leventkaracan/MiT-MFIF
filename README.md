@@ -73,7 +73,7 @@ You can test MiT-MFIF using test.sh script. You can reach the pre-trained model 
 ## Publications
 
 ```
- @article{karaca2023mitmfif,
+ @article{karacan2023mitmfif,
 title = {Multi-image transformer for multi-focus image fusion},
 journal = {Signal Processing: Image Communication},
 volume = {119},
