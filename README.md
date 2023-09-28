@@ -30,18 +30,8 @@ cuda 11.1
 
 ## Training Data
 
-Given a dataset root path in which there are folders containing frames and video list  and corresponding descriptions, you can train your own model.
-In the following, we are showing main structure of dataset folder:
+Given a dataset root path in which there are folders containing input multi-focus images and corresponding all-in-focus images, you can train your own model.
 
-`/dataset_root/<video folders>`
-
-`/dataset_root/train_video.txt`
-
-`/dataset_root/train_video_descriptions.txt`
-
-`/dataset_root/test_video.txt`
-
-`/dataset_root/test_video_descriptions.txt`
 
 
 ## Test Datasets
@@ -69,6 +59,15 @@ You can test MiT-MFIF using test.sh script. You can reach the pre-trained model 
 `run_train.sh`
 
 ## Evaluation
+
+## References
+
+    """
+    We build our FeedForward network on LocalViT to ensure locality in proposed Multi-image Transformer
+    "Li, Y., Zhang, K., Cao, J., Timofte, R., & Van Gool, L. (2021). 
+    Localvit: Bringing locality to vision transformers. 
+    arXiv preprint arXiv:2104.05707."
+    """
 
 ## Publications
 
