@@ -49,7 +49,7 @@ You can train MiT-MFIF using the following script.
 
 ## Testing MiT-MFIF
 
-You can test MiT-MFIF using the following script. You can reach the pre-trained model under the model directory.
+You can test MiT-MFIF using the following script. You can reach the pre-trained model under the "model" directory.
 
 `python test.py --root_testdata  ./datasets --test_dataset LytroDataset --root_result ./results  --root_model ./models/ --model_name mit-mfif_best`
 
@@ -68,7 +68,7 @@ In our code, some code pieces are adapted from the [STTN](https://github.com/res
 
 ## Results
 
-We provide results under Results folder for three datasets (Lytro, MFFW, MFI-WHU).
+We have included the results for three datasets (Lytro, MFFW, MFI-WHU) in the "results" folder.
 
 ## Contact
 
