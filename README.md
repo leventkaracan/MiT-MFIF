@@ -72,7 +72,7 @@ We have included the results for three datasets (Lytro, MFFW, MFI-WHU) in the "r
 
 ## Contact
 
-Feel free to reach out to me with any questions regarding MiT-MFIF or to explore collaboration opportunities in solving diverse computer vision and image processing challenges. For additional details about my research please visit [my personal webpage](https://leventkaracan.github.io/).
+Feel free to reach out to [me](mailto:leventkaracan87@gmail.com) with any questions regarding MiT-MFIF or to explore collaboration opportunities in solving diverse computer vision and image processing challenges. For additional details about my research please visit [my personal webpage](https://leventkaracan.github.io/).
 
 ## Citing MiT-MFIF
 
