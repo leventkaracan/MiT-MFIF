@@ -2,14 +2,14 @@
 
 ## Introduction
 
-MiT-MFIF, an  multi-focus image fusion model, fuses input images with varying depths of field into a comprehensive all-in-focus image. It introduces MiT, a novel vision transformer architecture, ensuring both local and  global connectivity. Remarkably, MiT-MFIF achieves MFIF without additional post-processing steps, streamlining the fusion process and boosting efficiency. Our evaluations, qualitative and quantitative, affirm its superior performance over existing methods, predicting more accurate focus maps.
+MiT-MFIF, an  multi-focus image fusion model, fuses input images with varying depths of field into a comprehensive all-in-focu image. It introduces MiT, a novel vision transformer architecture, ensuring both local and  global connectivity. Remarkably, MiT-MFIF achieves MFIF without additional post-processing steps, streamlining the fusion process and boosting efficiency. Our evaluations, qualitative and quantitative, affirm its superior performance over existing methods, predicting more accurate focus maps.
 
 For a comprehensive understanding and deeper insights, we invite you to explore the [paper](https://www.sciencedirect.com/science/article/pii/S0923596523001406).
 
 
 ## Installation
 
-MiT-MFIF is coded with PyTorch
+MiT-MFIF is coded with PyTorch.
 
 It requires the following installations:
 
