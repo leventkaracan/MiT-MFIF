@@ -86,4 +86,4 @@ author = {Levent Karacan}
 ```
 ## Contact
 
-Feel free to contact [me](leventkaracan87@gmail.com) to ask any questions about MiT-MFIF and collaborate to solve various computer vision and image processing problems.
+Feel free to contact [me](mailto:leventkaracan87@gmail.com) to ask any questions about MiT-MFIF and collaborate to solve various computer vision and image processing problems.
