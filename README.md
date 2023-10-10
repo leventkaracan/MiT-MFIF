@@ -72,7 +72,7 @@ We provide results under Results folder for three datasets (Lytro, MFFW, MFI-WHU
 
 ## Contact
 
-Feel free to contact [me](mailto:leventkaracan87@gmail.com) to ask any questions about MiT-MFIF and collaborate to solve various computer vision and image processing problems.
+Feel free to contact [me](mailto:leventkaracan87@gmail.com) to ask any questions about MiT-MFIF and collaborate to solve various computer vision and image processing problems. For more information about my research visit my [my personal webpage](https://leventkaracan.github.io/).
 
 ## Citing MiT-MFIF
 
