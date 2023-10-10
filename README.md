@@ -55,7 +55,7 @@ You can test MiT-MFIF using the following script. You can reach the pre-trained 
 
 ## Evaluation
 
-To evaluate the MiT-MFIF we utilize the following Matlab implementations.
+To evaluate the MiT-MFIF, we utilize the following Matlab implementations.
 
  [https://github.com/zhengliu6699/imageFusionMetrics](https://github.com/zhengliu6699/imageFusionMetrics)
  
@@ -81,10 +81,9 @@ pages = {117058},
 year = {2023},
 issn = {0923-5965},
 doi = {https://doi.org/10.1016/j.image.2023.117058},
-url = {https://www.sciencedirect.com/science/article/pii/S0923596523001406},
 author = {Levent Karacan}
 }
 ```
 ## Contact
 
-Feel free to contact me to ask any questions about MiT-MFIF and collaborate to solve various computer vision and image processing problems.
+Feel free to contact [me](leventkaracan87@gmail.com) to ask any questions about MiT-MFIF and collaborate to solve various computer vision and image processing problems.
