@@ -2,10 +2,10 @@
 
 ## Introduction
 
-MiT-MFIF is a multi-focus image fusion model to fuse input images, which have different depths are in-focus so that all-in-focus image can be obtained. With MiT-MFIF, we propose a new vision transformer architecture, called by Multi-image Transformer (MiT) to provide global connectivity across input images besides locality with well-grounded architecture.Our qualitative and quantitative evaluations demonstrate that MiT-MFIF  outperforms existing MFIF methods, predicting more accurate focus maps.
+MiT-MFIF, an  multi-focus image fusion model, fuses input images with varying depths of field into a comprehensive all-in-focus image. It introduces MiT, a novel vision transformer architecture, ensuring both local and  global connectivity. Remarkably, MiT-MFIF achieves MFIF without additional post-processing steps, streamlining the fusion process and boosting efficiency. Our evaluations, qualitative and quantitative, affirm its superior performance over existing methods, predicting more accurate focus maps.
 
+For a comprehensive understanding and deeper insights, we invite you to explore the [paper](https://www.sciencedirect.com/science/article/pii/S0923596523001406).
 
-For more details, you can reach the [paper](https://www.sciencedirect.com/science/article/pii/S0923596523001406) 
 
 ## Installation
 
@@ -70,6 +70,10 @@ In our code, some code pieces are adapted from the [STTN](https://github.com/res
 
 We provide results under Results folder for three datasets (Lytro, MFFW, MFI-WHU).
 
+## Contact
+
+Feel free to contact [me](mailto:leventkaracan87@gmail.com) to ask any questions about MiT-MFIF and collaborate to solve various computer vision and image processing problems.
+
 ## Citing MiT-MFIF
 
 ```
@@ -84,6 +88,4 @@ doi = {https://doi.org/10.1016/j.image.2023.117058},
 author = {Levent Karacan}
 }
 ```
-## Contact
 
-Feel free to contact [me](mailto:leventkaracan87@gmail.com) to ask any questions about MiT-MFIF and collaborate to solve various computer vision and image processing problems.
