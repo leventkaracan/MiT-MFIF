@@ -1,20 +1,12 @@
 # Multi-image transformer for multi-focus image fusion (MiT-MFIF)
 
-- [Introduction](#introduction)
-- [Code Requirements](#requirements)
-- [Datasets](#data-structure)
-    - [Lytro Dataset](#lytro)
-    - [MFFW Dataset](#mffw)
-- [Training MiT-MFIF](#training)
-- [Testing MiT-MFIF](#testing)
-- [Publications](#publications)
-
 ## Introduction
 
 MiT-MFIF is a multi-focus image fusion model to fuse input images, which have different depths are in-focus so that all-in-focus image can be obtained. With MiT-MFIF, we propose a new vision transformer architecture, called by Multi-image Transformer (MiT) to provide global connectivity across input images besides locality with well-grounded architecture.Our qualitative and quantitative evaluations demonstrate that MiT-MFIF  outperforms existing MFIF methods, predicting more accurate focus maps.
 
 
 For more details, you can reach the [paper](https://www.sciencedirect.com/science/article/pii/S0923596523001406) 
+
 ## Installation
 
 MiT-MFIF is coded with PyTorch
@@ -39,14 +31,14 @@ We follow the [MFIF-GAN](https://github.com/ycwang-libra/MFIF-GAN) to generate t
 You may find the test data under the datasets folder. Please refer to the related papers if you use them in your research.
 
 ### [Lytro](https://github.com/xingchenzhang/MFIFB)
-"""M. Nejati, S. Samavi, S. Shirani, "Multi-focus Image Fusion Using Dictionary-Based Sparse Representation", Information Fusion, vol. 25, Sept. 2015, pp. 72-84. """
+```M. Nejati, S. Samavi, S. Shirani, "Multi-focus Image Fusion Using Dictionary-Based Sparse Representation", Information Fusion, vol. 25, Sept. 2015, pp. 72-84. ```
 
 ### [MFFW](https://github.com/xingchenzhang/MFIFB)
-"""Xu, S., Wei, X., Zhang, C., Liu, J., & Zhang, J. (2020). MFFW: A new dataset for multi-focus image fusion. arXiv preprint arXiv:2002.04780."""
+```Xu, S., Wei, X., Zhang, C., Liu, J., & Zhang, J. (2020). MFFW: A new dataset for multi-focus image fusion. arXiv preprint arXiv:2002.04780.```
 
 ### [MFI-WHU](https://github.com/HaoZhang1018/MFI-WHU)
 
-"""Zhang, H., Le, Z., Shao, Z., Xu, H., & Ma, J. (2021). MFF-GAN: An unsupervised generative adversarial network with adaptive and gradient joint constraints for multi-focus image fusion. Information Fusion, 66, 40-53."""
+```Zhang, H., Le, Z., Shao, Z., Xu, H., & Ma, J. (2021). MFF-GAN: An unsupervised generative adversarial network with adaptive and gradient joint constraints for multi-focus image fusion. Information Fusion, 66, 40-53.```
 
  
 ## Training MiT-MFIF
@@ -66,6 +58,7 @@ You can test MiT-MFIF using the following script. You can reach the pre-trained 
 To evaluate the MiT-MFIF we utilize the following Matlab implementations.
 
  [https://github.com/zhengliu6699/imageFusionMetrics](https://github.com/zhengliu6699/imageFusionMetrics)
+ 
  [https://github.com/xytmhy/Evaluation-Metrics-for-Image-Fusion](https://github.com/xytmhy/Evaluation-Metrics-for-Image-Fusion)
 
 
@@ -94,4 +87,4 @@ author = {Levent Karacan}
 ```
 ## Contact
 
-Feel free to cantact me to ask any question, discuss method, collaborate to solve various computer vision and image processing problems.
+Feel free to contact me to ask any questions about MiT-MFIF and collaborate to solve various computer vision and image processing problems.
