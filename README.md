@@ -32,47 +32,55 @@ cuda 11.1
 
 Given a dataset root path in which there are folders containing input multi-focus images and corresponding all-in-focus images, you can train your own model.
 
-
+We follow the [MFIF-GAN](https://github.com/ycwang-libra/MFIF-GAN) to generate training data from [Pascal VOC12](https://pjreddie.com/projects/pascal-voc-dataset-mirror/) dataset.
 
 ## Test Datasets
 
-### Lytro 
+You may find the test data under the datasets folder. Please refer to the related papers if you use them in your research.
 
+### [Lytro](https://github.com/xingchenzhang/MFIFB)
+"""M. Nejati, S. Samavi, S. Shirani, "Multi-focus Image Fusion Using Dictionary-Based Sparse Representation", Information Fusion, vol. 25, Sept. 2015, pp. 72-84. """
 
-### MFFW 
+### [MFFW](https://github.com/xingchenzhang/MFIFB)
+"""Xu, S., Wei, X., Zhang, C., Liu, J., & Zhang, J. (2020). MFFW: A new dataset for multi-focus image fusion. arXiv preprint arXiv:2002.04780."""
+
+### [MFI-WHU](https://github.com/HaoZhang1018/MFI-WHU)
+
+"""Zhang, H., Le, Z., Shao, Z., Xu, H., & Ma, J. (2021). MFF-GAN: An unsupervised generative adversarial network with adaptive and gradient joint constraints for multi-focus image fusion. Information Fusion, 66, 40-53."""
 
  
-
-#### Please send [us](mailto:levent.karacan@iste.edu.tr) a request e-mail to download dataset.
-
-
 ## Training MiT-MFIF
 
-You can train MiT-MFIF using the following scripts:
+You can train MiT-MFIF using the following script. 
 
-`run_train.sh`
+`python main.py --root_traindata  ./mfif_dataset/  --model_save_dir ./models/  --model_name mfif`
 
 ## Testing MiT-MFIF
 
-You can test MiT-MFIF using test.sh script. You can reach the pre-trained model under the model directory.
+You can test MiT-MFIF using the following script. You can reach the pre-trained model under the model directory.
 
-`run_train.sh`
+`python test.py --root_testdata  ./datasets --test_dataset LytroDataset --root_result ./results  --root_model ./models/ --model_name mit-mfif_best`
 
 ## Evaluation
 
-## References
+To evaluate the MiT-MFIF we utilize the following Matlab implementations.
 
-    """
-    We build our FeedForward network on LocalViT to ensure locality in proposed Multi-image Transformer
-    "Li, Y., Zhang, K., Cao, J., Timofte, R., & Van Gool, L. (2021). 
-    Localvit: Bringing locality to vision transformers. 
-    arXiv preprint arXiv:2104.05707."
-    """
+ [https://github.com/zhengliu6699/imageFusionMetrics](https://github.com/zhengliu6699/imageFusionMetrics)
+ [https://github.com/xytmhy/Evaluation-Metrics-for-Image-Fusion](https://github.com/xytmhy/Evaluation-Metrics-for-Image-Fusion)
 
-## Publications
+
+## Implementation Notes
+
+In our code, some code pieces are adapted from the [STTN](https://github.com/researchmm/STTN), [LocalViT](https://github.com/ofsoundof/LocalViT), and [pix2pixHD](https://github.com/NVIDIA/pix2pixHD).
+
+## Results
+
+We provide results under Results folder for three datasets (Lytro, MFFW, MFI-WHU).
+
+## Citing MiT-MFIF
 
 ```
- @article{karacan2023mitmfif,
+@article{karacan2023mitmfif,
 title = {Multi-image transformer for multi-focus image fusion},
 journal = {Signal Processing: Image Communication},
 volume = {119},
@@ -84,3 +92,6 @@ url = {https://www.sciencedirect.com/science/article/pii/S0923596523001406},
 author = {Levent Karacan}
 }
 ```
+## Contact
+
+Feel free to cantact me to ask any question, discuss method, collaborate to solve various computer vision and image processing problems.
